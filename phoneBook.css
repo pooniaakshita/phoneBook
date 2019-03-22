@@ -1,0 +1,57 @@
+#nav {
+    position: static; background-color: darkgreen;
+    height: 10%; max-height: 20%;
+    text-align: center; color: white;
+}
+.content {
+    height: 45%; max-height: 80%;
+    max-width: 100%; width: 90%;
+}
+#button1, #add {
+    height: 80%; width: 15%; color: white;
+    background-color: crimson; margin-top: 3%;
+    text-align: center; border-radius: 7px;
+    margin-left: 50%;
+}
+#button1:hover, #add:hover {
+    background-color: white; color: green;
+    border: 1px solid green; border-radius: 7px;
+}
+.showContent {
+    height: 78%; width: 100%; padding-left: 10%;
+}
+#formAdd {
+    height: 58%; 
+    margin-left: 41%; margin-top: 5%;
+}
+p {
+    margin-top: 4px;
+}
+#un, #nu {
+    margin-left: 5%; padding: 2%;
+    width: 50%; height: 15%; margin-top: 3%;
+    border-radius: 7px;
+}
+.showNumber, .showName {
+    padding: 2%; width: 20%; margin-left: 9%;
+    height: 20%; margin-top: 4%;
+    float: left; font-family: monospace; font-size: 17px;
+}
+.showButt {
+    float: left; margin-top: 3%; max-width: 100%;
+    margin-left: 2%; padding: 2%; max-height: 100%;
+    position: relative; width: 10%; height: 95%;
+}
+#showRunTime {
+    margin-top: 2%; margin-left: 45%;
+    height: 20%; font-size: 15px; font-family: monospace;
+}
+#finalAdd {
+     height: 28%; width: 25%; color: white; 
+     background-color: crimson; border-radius: 7px;
+     margin-top: 2%; margin-left: 15%;
+}
+#finalAdd:hover {
+    background-color: white; border: 1px solid green;
+    border-radius: 7px; color: green; 
+}
